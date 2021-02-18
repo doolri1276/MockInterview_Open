@@ -2,6 +2,11 @@
 Where practice makes perfect.
 
 
+
+
+
+
+
 ## Inspiration
 College students look to land an internship or even a job in order to improve their portfolio or resume. However, the most important thing we have to prepare for to land an internship or a job is the interview. The inspiration behind this idea was to provide a practicing platform for students trying to get familiar with the interview process.
 
