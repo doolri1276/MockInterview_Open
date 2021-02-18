@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main_gradient"
+        tools:context=".activities.mockinterview.InterviewMainActivity">
+
+    <include layout="@layout/custom_appbar"/>
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_appbar_root"
+            android:fillViewport="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="21dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Interview Simulation"
+                    style="@style/NormalWhite_Bold_28sp"
+                    android:layout_marginLeft="21dp"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="46dp"
+                    android:paddingRight="21dp"
+                    android:paddingLeft="21dp"
+                    android:background="@drawable/half_round_white_bg">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                    <ImageView
+                            android:layout_width="210dp"
+                            android:src="@drawable/interview_img"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_horizontal"
+                            android:adjustViewBounds="true"
+                            android:layout_height="wrap_content"/>
+                    <View android:layout_width="1dp" android:layout_weight="0.3" android:layout_height="1dp"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                        <View android:layout_width="1dp" android:layout_weight="0.3" android:layout_height="1dp"/>
+                        <RelativeLayout
+                                android:layout_width="94dp"
+                                android:orientation="vertical"
+                                android:background="@drawable/semi_round_branding_light"
+                                android:gravity="center"
+                                android:layout_height="wrap_content">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="5"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="16dp"
+                                    style="@style/NormalWhite_Bold_28sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Questions"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="51dp"
+                                    style="@style/NormalWhite_Regular_12sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:src="@drawable/ic_videocamera"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="85dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_height="24dp"/>
+
+                        </RelativeLayout>
+
+                        <View android:layout_width="1dp" android:layout_weight="0.3" android:layout_height="1dp"/>
+
+                        <RelativeLayout
+                                android:layout_width="94dp"
+                                android:orientation="vertical"
+                                android:background="@drawable/semi_round_branding_light"
+                                android:gravity="center"
+                                android:layout_height="wrap_content">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="3"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="16dp"
+                                    style="@style/NormalWhite_Bold_28sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Minute Each"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="51dp"
+                                    style="@style/NormalWhite_Regular_12sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:src="@drawable/ic_timer"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="85dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_height="24dp"/>
+
+                        </RelativeLayout>
+                        <View android:layout_width="1dp" android:layout_weight="0.3" android:layout_height="1dp"/>
+
+                        <RelativeLayout
+                                android:layout_width="94dp"
+                                android:orientation="vertical"
+                                android:background="@drawable/semi_round_branding_light"
+                                android:gravity="center"
+                                android:layout_height="wrap_content">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="15"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="16dp"
+                                    style="@style/NormalWhite_Bold_28sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Minutes Total"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="51dp"
+                                    style="@style/NormalWhite_Regular_12sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="(approx.)"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="66dp"
+                                    style="@style/NormalWhite_Regular_8sp"
+                                    android:layout_height="wrap_content"/>
+
+                            <ImageView
+                                    android:layout_width="24dp"
+                                    android:src="@drawable/ic_check"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="85dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_height="24dp"/>
+
+                        </RelativeLayout>
+
+                        <View android:layout_width="1dp" android:layout_weight="0.3" android:layout_height="1dp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="1dp" android:layout_weight="0.2" android:layout_height="1dp"/>
+
+                    <TextView
+                            android:id="@+id/tv_start"
+                            android:layout_width="match_parent"
+                            android:text="Let's start"
+                            android:textAllCaps="true"
+                            android:gravity="center"
+                            style="@style/NormalWhite_Bold_14sp"
+                            android:background="@drawable/semi_round_branding"
+                            android:layout_height="46dp"/>
+                    <View android:layout_width="1dp" android:layout_weight="0.3" android:layout_height="1dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

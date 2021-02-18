@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HIGH RISE</string>
+    <string name="default_pressagainmsg">Press again to go back.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="network_disable">No internet.</string>
+
+
+    <string name="tip_title1">Do your research!</string>
+    <string name="tip_title2">Be prepared to show your work!</string>
+    <string name="tip_title3">First impressions count!</string>
+    <string name="tip_title4">Keep your answers\nconcise and focused!</string>
+    <string name="tip_title5">Prepare a list of references!</string>
+    <string name="tip_title6">Recruit a friend!</string>
+    <string name="tip_title7">Line up your questions!</string>
+    <string name="tip_title8">End the interview\nwith a good impression!</string>
+
+    <string name="tip_text1">Do your homework and research the employer and the industry. Using the company’s website,
+        social media posts, and recent press releases will provide a solid understanding of the company’s goals and how
+        your background makes you a great fit.
+    </string>
+    <string name="tip_text2">During the interview, you will likely be asked about specific work you’ve completed in
+        relation to the position. Think of work you’ve done in past jobs, clubs, or volunteer positions that show you
+        have experience and success doing the work they require.
+    </string>
+    <string name="tip_text3">Don’t forget the little things—shine your shoes, make sure your nails are clean and tidy,
+        and check your clothes for holes, stains, pet hair, and loose threads. Display confident body language and a
+        smile throughout.
+    </string>
+    <string name="tip_text4">Your time with each interviewer is limited so be mindful of rambling. Practicing your
+        answers beforehand can help keep you focused.
+    </string>
+    <string name="tip_text5">Your interviewers might require you to submit a list of references before or after your
+        interview. Having a reference list prepared ahead of time can help you quickly complete this step to move
+        forward in the hiring process.
+    </string>
+    <string name="tip_text6">Practicing your answers out loud is an incredibly effective way to prepare. Say them to
+        yourself or ask a friend to help run through questions and answers.
+    </string>
+    <string name="tip_text7">Come to the interview with some intelligent questions for the interviewer that demonstrate
+        your knowledge of the company as well as your serious intent. Interviewers always ask if you have any questions,
+        and no matter what, you should have one or two ready.
+    </string>
+    <string name="tip_text8">A positive end to the interview is another way to ensure your success. Be courteous and
+        allow the interview to end on time. Restate any strengths and experiences that you might not have emphasized
+        earlier.
+    </string>
+</resources>

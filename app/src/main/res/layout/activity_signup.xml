@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/ac_root"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        tools:context=".activities.signinup.SignUpActivity">
+
+    <include layout="@layout/custom_appbar"/>
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@id/rl_appbar_root"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:paddingRight="24dp"
+                      android:paddingLeft="24dp"
+                      android:layout_below="@id/iv_logo"
+                      android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/NormalBlack_Bold_20sp"
+                    android:layout_gravity="center"
+                    android:text="Create an Account"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    style="@style/LightGray_Regular_14sp"
+                    android:text="One account is all you need\nto access all the tools provided for you."/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/semi_round_border_branding_2"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="16dp"
+                           android:layout_height="16dp"
+                           android:layout_marginLeft="24dp"
+                           android:src="@drawable/ic_person"/>
+
+                <EditText
+                        android:id="@+id/et_cpw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:maxLines="1"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:background="@color/colorTransparent"
+                        style="@style/NormalBlack_Regular_14sp"
+                        android:inputType="textEmailAddress"
+                        android:hint="Email"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/tv_war_cpw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter a valid email address."
+                    android:visibility="invisible"
+                    tools:visibility="visible"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    style="@style/Alert_Regular_12sp"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/semi_round_border_branding_2"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="16dp"
+                           android:layout_height="16dp"
+                           android:layout_marginLeft="24dp"
+                           android:src="@drawable/ic_person"/>
+
+                <EditText
+                        android:id="@+id/et_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:maxLines="1"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:focusableInTouchMode="true"
+                        android:background="@color/colorTransparent"
+                        style="@style/NormalBlack_Regular_14sp"
+                        android:inputType="textEmailAddress"
+                        android:hint="Username"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/tv_war_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This username has already been taken."
+                    android:visibility="invisible"
+                    tools:visibility="visible"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    style="@style/Alert_Regular_12sp"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/semi_round_border_branding_2"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="16dp"
+                           android:layout_height="16dp"
+                           android:layout_marginLeft="24dp"
+                           android:src="@drawable/ic_psw"/>
+
+                <EditText
+                        android:id="@+id/et_psw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:maxLines="1"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:background="@color/colorTransparent"
+                        style="@style/NormalBlack_Regular_14sp"
+                        android:inputType="textPassword"
+                        android:hint="Password"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/tv_war_psw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please use a minimum of 8 characters."
+                    android:visibility="invisible"
+                    tools:visibility="visible"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    style="@style/Alert_Regular_12sp"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/semi_round_border_branding_2"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="16dp"
+                           android:layout_height="16dp"
+                           android:layout_marginLeft="24dp"
+                           android:src="@drawable/ic_psw"/>
+
+                <EditText
+                        android:id="@+id/et_psw2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:maxLines="1"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:background="@color/colorTransparent"
+                        style="@style/NormalBlack_Regular_14sp"
+                        android:inputType="textPassword"
+                        android:hint="Confirm Password"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/tv_war_psw2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passwords do not match."
+                    android:visibility="invisible"
+                    tools:visibility="visible"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    style="@style/Alert_Regular_12sp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/NormalGray_Regular_12sp"
+                    android:layout_marginTop="5dp"
+                    android:text="Please use a minimum of 8 characters with numbers and special characters."/>
+
+            <TextView
+                    android:id="@+id/tv_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    style="@style/NormalWhite_Bold_14sp"
+                    android:padding="5dp"
+                    android:background="@drawable/sel_semi_round_branding_btn"
+                    android:enabled="true"
+                    tools:enabled="false"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Register"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

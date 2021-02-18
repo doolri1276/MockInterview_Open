@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="46dp"
+        android:paddingRight="21dp"
+        android:paddingLeft="21dp"
+        android:background="@drawable/half_round_white_bg"
+        android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="56dp"
+            android:fillViewport="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/iv_img"
+                    android:layout_width="180dp"
+                    android:maxWidth="180dp"
+                    android:src="@drawable/img_tip1"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/tv_tip_title"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/tip_title1"
+                    android:layout_marginBottom="22dp"
+                    style="@style/NormalBlack_Regular_24sp"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/tv_tip_text"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tip_text1"
+                    android:gravity="center_horizontal"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    style="@style/NormalBlack_Regular_14sp"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

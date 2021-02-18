@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+                  android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="40dp"
+                tools:text="3"
+                android:layout_marginLeft="10dp"
+                style="@style/NormalBlack_Regular_14sp"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tv_datetime"
+                android:layout_width="wrap_content"
+                tools:text="02/08/2021 11:11AM"
+                android:layout_weight="1"
+                style="@style/NormalGray_Regular_14sp"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="30dp"
+                android:background="@drawable/sel_play"
+                android:layout_height="30dp"/>
+
+        <ImageView
+                android:id="@+id/iv_trash"
+                android:layout_width="30dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_trash"
+                android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:background="#707070"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="1dp"/>
+
+
+</LinearLayout>

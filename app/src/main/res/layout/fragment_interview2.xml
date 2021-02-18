@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+            android:orientation="vertical"
+        android:gravity="center_horizontal"
+             android:layout_height="match_parent"
+             tools:context=".fragments.Interview1Fragment">
+
+    <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How did you do?\n"
+            style="@style/NormalBlack_Regular_24sp"/>
+
+    <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+    <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="180dp"
+            android:maxWidth="180dp"
+            android:src="@drawable/interview_result_img"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+    <TextView
+            android:id="@+id/tv_again"
+            android:layout_width="match_parent"
+              android:background="@drawable/semi_round_branding"
+              android:text="Try Again"
+            android:layout_marginTop="16dp"
+              style="@style/NormalWhite_Bold_14sp"
+              android:gravity="center"
+              android:layout_height="46dp"/>
+
+    <TextView
+            android:id="@+id/tv_play"
+            android:layout_width="match_parent"
+            android:background="@drawable/sel_semi_round_branding_btn"
+            android:text="Play Your Answer"
+            style="@style/NormalWhite_Bold_14sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_height="46dp"/>
+    <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+              android:background="@drawable/semi_round_branding"
+              android:text="Next Question!"
+              style="@style/NormalWhite_Bold_14sp"
+              android:gravity="center"
+              android:layout_marginTop="16dp"
+              android:layout_marginBottom="30dp"
+              android:layout_height="46dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="40dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_d_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/NormalBlack_Bold_16sp"
+                    android:layout_marginBottom="5dp"
+                    tools:text="title"/>
+
+            <TextView
+                    android:id="@+id/tv_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Dialog_Regular_14sp"
+                    android:paddingBottom="32dp"
+                    tools:text="Changes you made may not be saved."/>
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/colorSubLine"
+              android:layout_height="1dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/tv_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    style="@style/DialogLeft_Bold_14sp"
+                    android:text="Cancel"/>
+            <View
+                    android:id="@+id/v_line"
+                    android:layout_width="1dp"
+                    android:background="@color/colorSubLine"
+                    android:layout_height="match_parent"/>
+            <TextView
+                    android:id="@+id/tv_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:gravity="center"
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    style="@style/Primary_Bold_14sp"
+                    android:text="Leave"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

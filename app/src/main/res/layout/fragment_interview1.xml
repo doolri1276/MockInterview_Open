@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+            android:orientation="vertical"
+             android:layout_height="match_parent"
+             tools:context=".fragments.Interview1Fragment">
+
+    <ImageView
+            android:layout_width="110dp"
+            android:src="@drawable/interview_img"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="110dp"/>
+
+    <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/NormalBlack_Regular_18sp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            tools:text="Tell me something about yourself.\n-Name, Place\n-Educational \n-Work Experience\n-Interests"/>
+
+    <TextView
+            android:id="@+id/tv_btn"
+            android:layout_width="match_parent"
+            android:background="@drawable/semi_round_branding"
+            android:text="Record Answer"
+            style="@style/NormalWhite_Bold_14sp"
+            android:gravity="center"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="46dp"/>
+
+
+
+</LinearLayout>

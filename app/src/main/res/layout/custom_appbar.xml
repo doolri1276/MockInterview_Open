@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/rl_appbar_root"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        tools:background="@color/colorPrimaryLight"
+        android:layout_height="48dp" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+            android:id="@+id/ll_center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    style="@style/NormalWhite_Bold_14sp"
+                    android:text="HIGH RISE"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+
+            android:orientation="horizontal">
+        <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="56dp"
+                android:paddingLeft="24dp"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:paddingRight="16dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_back"
+                />
+        <ImageView
+                android:id="@+id/iv_back_white"
+                android:layout_width="56dp"
+                android:paddingLeft="21dp"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:paddingRight="16dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_left_arrow_white"
+                />
+        <ImageView
+                android:id="@+id/iv_user"
+                android:layout_width="56dp"
+                android:paddingLeft="21dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:paddingRight="16dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_user"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+        <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="56dp"
+                android:paddingRight="21dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:paddingLeft="16dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_menu"
+        />
+
+        <ImageView
+                android:id="@+id/iv_question"
+                android:layout_width="56dp"
+                android:paddingRight="21dp"
+                android:visibility="gone"
+                android:paddingLeft="16dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_question"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

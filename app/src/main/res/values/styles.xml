@@ -1,0 +1,198 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listViewStyle">@style/Widget.MyTheme.ListView</item>
+        <item name="android:scrollViewStyle">@style/Widget.MyTheme.ScrollView</item>
+    </style>
+
+    <style name="Widget.MyTheme.ListView" parent="android:Widget.ListView">
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="Widget.MyTheme.ScrollView" parent="android:Widget.ScrollView">
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="CustomDialogStyle" parent="android:Theme.Holo.Dialog.NoActionBar" >
+        <item name="android:windowBackground">@color/colorTransparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+
+
+
+<!--    fonts     -->
+    <style name="NormalBlack_Bold_20sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorFont1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="NormalBlack_Bold_16sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorFont1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="NormalBlack_Bold_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorFont1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="NormalBlack_Regular_18sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorFont1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="NormalBlack_Regular_24sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorFont1</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="NormalBlack_Regular_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorFont1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="NormalGray_Regular_12sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorFont2</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NormalGray_Regular_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorFont2</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+
+    <style name="LightGray_Regular_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorFont3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="LightGray_Bold_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorFont3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+    <style name="Dialog_Regular_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorDialog</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DialogLeft_Bold_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorDialogLeft</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="NormalWhite_Bold_32sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="NormalWhite_Bold_28sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="NormalWhite_Bold_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="NormalWhite_Regular_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="NormalWhite_Regular_12sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NormalWhite_Bold_12sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NormalWhite_Regular_8sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+
+    <style name="Alert_Regular_12sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_regular</item>
+        <item name="android:textColor">@color/colorAlert</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+
+    <style name="Primary_Bold_14sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+
+
+    <style name="PrimaryLight_Bold_12sp">
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
